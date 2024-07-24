@@ -1,6 +1,4 @@
-// eslint-disable-next-line
-// import { Palette, PaletteColor } from "@mui/material/styles/createPalette";
-
+// customPalette.d.ts
 declare module "@mui/material/styles/createPalette" {
   interface PaletteColor {
     [key: number]: string;
